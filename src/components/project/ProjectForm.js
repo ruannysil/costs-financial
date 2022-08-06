@@ -49,6 +49,13 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 placeholder="Insira o nome do projeto"
                 handleOnChange={ handleOnChange }
            />
+           <Input 
+                type="text" 
+                text="Nome do projeto"
+                name="name"
+                placeholder="Insira o nome do projeto"
+                handleOnChange={ handleOnChange }
+           />
             <Input type="numb"
                 text="Orçamento do projeto"
                 name="budget"
