@@ -51,6 +51,82 @@
       "cost": 0,
       "services": [],
       "id": 5
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "name": "teste",
+      "budget": "5000",
+      "cost": 0,
+      "services": [],
+      "id": 8
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "name": "teste",
+      "budget": "5000",
+      "cost": 0,
+      "services": [],
+      "id": 9
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "name": "teste",
+      "budget": "5000",
+      "cost": 0,
+      "services": [],
+      "id": 10
+    },
+    {
+      "category": {
+        "id": "Selecione uma opção",
+        "name": "Selecione uma opção"
+      },
+      "budget": "5000",
+      "name": "construção civil",
+      "cost": 0,
+      "services": [],
+      "id": 11
+    },
+    {
+      "category": {
+        "id": "Selecione uma opção",
+        "name": "Selecione uma opção"
+      },
+      "budget": "5000",
+      "name": "construção civil",
+      "cost": 0,
+      "services": [],
+      "id": 12
+    },
+    {
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "budget": "5000",
+      "name": "construção civil",
+      "cost": 0,
+      "services": [],
+      "id": 13
     }
   ],
   "categories": [

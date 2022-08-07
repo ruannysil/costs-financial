@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import Input from '../form/Input'
+import { useState, useEffect } from 'react';
+
+import Input from '../form/Input';
 import Select from '../form/Select'
-import SubmitButton from '../form/SubmitButton'
+import SubmitButton from '../form/SubmitButton';
+
 import styles from './ProjectForm.module.css'
-
-
 
 function ProjectForm({ handleSubmit, btnText, projectData }) {
 
@@ -29,22 +29,21 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
         e.preventDefault()
         handleSubmit(project)
     }
-    function handleOnChange(e) {
+    
+    function handleChange(e) {
         setProject({ ...project, [e.target.name]: e.target.value })
-        
     }
 
     function handleCategory(e) {
         setProject({ 
             ...project,
-            categoty: {
+            category: {
                 id: e.target.value,
-                name: e.target.options[e.target.SelectedIndex].text
-        }, 
-      })
-       
+                name: e.target.options[e.target.selectedIndex].text,
+        },
+     })
     }
-
+    
     return (
         <form onSubmit={submit} className={styles.form}>
            <Input 
@@ -52,14 +51,14 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 text="Nome do projeto"
                 name="name"
                 placeholder="Insira o nome do projeto"
-                handleOnChange={ handleOnChange }
+                handleOnChange={ handleChange }
                 value={project.name ? project.name : ''}
            />
             <Input type="numb"
                 text="Orçamento do projeto"
                 name="budget"
                 placeholder="Insira o orçamento total"
-                handleOnChange={ handleOnChange }
+                handleOnChange={ handleChange }
                 value={project.budget ? project.budget : ''}
             />
             <Select
@@ -67,7 +66,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 text="Selecione a categoria"
                 options={categories} 
                 handleOnChange={ handleCategory }
-                value={project.category ? project.category : ''}
+                value={project.category ? project.category.id : ''}
             />
             <SubmitButton text={btnText}
             />
