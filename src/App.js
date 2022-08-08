@@ -4,7 +4,7 @@ import Contact from './components/pages/Contact';
 import Company from './components/pages/Company';
 import NewProject from './components/pages/NewProject';
 import Projects from './components/pages/Projects';
-
+import Project from './components/pages/Project';
 import Container from './components/layout/Container';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -19,17 +19,20 @@ function App() {
               <Route exact path='/'>
               <Home />
               </Route>
-              <Route exact path='/company'>
+              <Route path='/company'>
                 <Company />
               </Route>
-              <Route exact path='/Projects'>
+              <Route path='/Projects'>
                 <Projects />
               </Route>
-              <Route exact path='/contact'>
+              <Route path='/contact'>
                 <Contact />
               </Route>
-              <Route exact path='/newproject'>
+              <Route path='/newproject'>
                 <NewProject />
+              </Route>
+              <Route path='/project/:id'>
+                <Project />
               </Route>
           </Switch>
         </Container>
