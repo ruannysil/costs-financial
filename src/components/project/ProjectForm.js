@@ -4,7 +4,7 @@ import Input from '../form/Input';
 import Select from '../form/Select'
 import SubmitButton from '../form/SubmitButton';
 
-import styles from './ProjectForm.module.css'
+import styles from '../project/ProjectForm.module.css'
 
 function ProjectForm({ handleSubmit, btnText, projectData }) {
 
@@ -54,11 +54,12 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 handleOnChange={ handleChange }
                 value={project.name ? project.name : ''}
            />
-            <Input type="number"
+            <Input 
+                type="number"
                 text="Orçamento do projeto"
                 name="budget"
                 placeholder="Insira o orçamento total"
-                handleOnChange={ handleChange }
+                handleOnChange={handleChange}
                 value={project.budget ? project.budget : ''}
             />
             <Select

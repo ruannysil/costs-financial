@@ -10,7 +10,7 @@
 
 .project_details h1 {
     background-color: #222;
-    color: #ffbb33;
+    color: #fff;
     padding: 0.4em;
     border-radius: 5px;
 }
@@ -39,7 +39,7 @@
     border-radius: 5px;
 }
 .btn:hover {
-    color: #ffbb33;
+    color: #000;
 }
 
 .project_info {
