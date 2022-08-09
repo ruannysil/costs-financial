@@ -4,7 +4,9 @@
     background-color: #222;
     padding: 1em;
 }
-
+.logo {
+    width: 29%;
+}
 .list {
     display: flex;
     list-style: none;

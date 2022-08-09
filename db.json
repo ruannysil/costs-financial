@@ -12,31 +12,22 @@
       "id": 1
     },
     {
-      "cost": 0,
-      "services": [],
+      "name": "Placa xbet",
+      "budget": "200,00",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 50,
+      "services": [
+        {
+          "name": "pessoas me devendo",
+          "cost": "50,00",
+          "description": "me paga veaco",
+          "id": "1f62e69d-2234-485c-840e-cba5ce7f047b"
+        }
+      ],
       "id": 2
-    },
-    {
-      "name": "teste",
-      "budget": "300000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "teste",
-      "budget": "15.000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
     }
   ],
   "categories": [
