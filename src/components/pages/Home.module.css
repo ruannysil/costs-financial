@@ -1,3 +1,6 @@
+.container_geral{
+    max-width: 1400px;
+}
 .home_container {
     width: 100%;
     display: flex;
@@ -23,4 +26,21 @@
 .home_container img {
     width: 350px;
     margin: 2em 0;
+}
+@media (max-width: 425px) {
+    .home_container img {
+        width: 350px;
+    }
+    .home_container h1 {
+        font-size: 1.17em;
+        margin-bottom: 2.5em;
+    }
+    .home_container p {
+        margin-bottom: 3.5em;
+        text-align: center;
+    }
+    .home_container img {
+        width: 320px;
+        margin: 2em 0;
+    }
 }

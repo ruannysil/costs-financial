@@ -1,5 +1,6 @@
 .project_container {
-    padding: 2em;
+    padding: 8em 2em;
+    width: 100%;
 }
 
 .title_container {
@@ -7,6 +8,16 @@
     justify-content: space-between;
     margin-bottom: 2em;
 }
-.start{
-    
+
+
+@media (max-width: 375px) {
+    .title_container {
+        text-align: center;
+        padding: 1em;
+        font-size: 1em;
+        flex-direction: column;
+    }
+    .title_container h1 {
+        margin-bottom: 0.8em;
+    }
 }

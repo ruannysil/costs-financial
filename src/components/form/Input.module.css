@@ -8,11 +8,11 @@
     margin-bottom: .6em;
     font-weight: bold;
 }
-.form_control input {
+.form_control Input {
     padding: .7em;
     border-radius: 0;
     border: none;
 }
-.form_control input::placeholder{
+.form_control Input::placeholder{
     color: #7b7b7b;
 }

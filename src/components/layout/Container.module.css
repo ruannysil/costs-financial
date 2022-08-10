@@ -1,5 +1,5 @@
 .container {
-    width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -8,12 +8,18 @@
 
 .min-height {
     min-height: 75%;
-    /* width: 100%; */
+    width: 100%;
 }
 .start {
     justify-content: flex-start;
+    width: 100%;
 }
 .column {
     flex-direction: column;
     justify-content: flex-start;
+}
+@media (max-width:1200px) {
+    .start {
+        width: 100%;
+    }
 }

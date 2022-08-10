@@ -1,5 +1,6 @@
 .project_details {
-    padding: 2em;
+    width: 100%;
+    padding: 11em 2em;
 }
 
 .project_details h1,
@@ -44,4 +45,9 @@
 
 .project_info {
     width: 100%;
+}
+@media (max-width:320px) {
+    .project_details h1{
+        text-align: center;
+    }
 }
