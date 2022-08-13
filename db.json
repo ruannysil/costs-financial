@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "projeto atualizado",
-      "budget": "15.000",
+      "name": "teste",
+      "budget": "1000",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -12,133 +12,37 @@
       "id": 1
     },
     {
-      "name": "Placa xbet",
-      "budget": "200,00",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 50,
-      "services": [
-        {
-          "name": "pessoas me devendo",
-          "cost": "50,00",
-          "description": "me paga veaco",
-          "id": "1f62e69d-2234-485c-840e-cba5ce7f047b"
-        }
-      ],
+      "name": "projeto atualizado",
+      "budget": "10.000",
+      "cost": 0,
+      "services": [],
       "id": 2
     },
     {
-      "name": "Deus_e_Fiel100",
-      "budget": "1000",
       "category": {
         "id": "3",
         "name": "Design"
       },
+      "name": "projeto atualizado 02",
+      "budget": "15.000",
       "cost": 0,
       "services": [],
       "id": 3
     },
     {
-      "name": "RUANNY DA SILVA NOLETO",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "teste",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "jean",
-      "budget": "100000",
       "category": {
         "id": "4",
         "name": "Planejamento"
       },
+      "name": "projeto atualizado 03",
+      "budget": "22.000",
       "cost": 0,
       "services": [],
-      "id": 6
-    },
-    {
-      "name": "asdasd",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "budget": "4000",
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "name": "teste",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 10
-    },
-    {
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "budget": "1000",
-      "name": "teste 1",
-      "cost": 0,
-      "services": [],
-      "id": 12
-    },
-    {
-      "name": "teste",
-      "budget": "5000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 13
+      "id": 4
     }
   ],
   "categories": [
