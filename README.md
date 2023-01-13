@@ -11,7 +11,7 @@ Projeto Financias.
 </p>
 
 <p align="center">
-  <img alt="License" src="https://user-images.githubusercontent.com/84647446/212437772-bc315011-e2dd-4105-be9f-2d6355179e5e.jpg" width="500px">
+  <img alt="License" src="https://user-images.githubusercontent.com/84647446/212437772-bc315011-e2dd-4105-be9f-2d6355179e5e.jpg" width="700px">
 </p>
 
 <br>
