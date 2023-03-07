@@ -16,16 +16,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-app start",
+    "start": "react-scripts start",
     "backend": "json-server --watch db.json --port 5000",
-    "build": "react-app build",
-    "test": "react-app test",
-    "eject": "react-app eject"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
