@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "json-server": "^0.17.0",
     "react": "^18.2.0",
+    "react-app": "^1.1.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
@@ -17,9 +18,9 @@
   "scripts": {
     "start": "react-app start",
     "backend": "json-server --watch db.json --port 5000",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-app build",
+    "test": "react-app test",
+    "eject": "react-app eject"
   },
   "eslintConfig": {
     "extends": [
