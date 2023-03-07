@@ -1,15 +1,17 @@
 .footer {
     background-color: #000;
     color: #fff;
-    padding: 3em;
+    padding: 2em 0;
     text-align: center;
     width: 100%;
+    min-height: 30vh;
 }
 
 .social_list {
     display: flex;
     justify-content: center;
     list-style: none;
+    margin-top: 4rem;
 }
 .social_list li {
     margin: 0 1em;

@@ -12,9 +12,10 @@
     display: flex;
     list-style: none;
     align-items: center;
+    gap: 1rem;
 }
-.item {
-    margin-right: 1em;
+.logoImg {
+    width: 130px;
 }
 
 .item a {
@@ -23,4 +24,23 @@
 }
 .item a:hover {
     color: #ffbb33;
+}
+
+@media (max-width: 320px) {
+    .logo {
+        width: 153%;
+    }
+
+    .logoImg {
+       width: 20px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .logoImg {
+        width: 100px;
+    }
+    .list {
+        font-size: 14px;
+    }
 }
